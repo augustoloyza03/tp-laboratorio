@@ -1,0 +1,83 @@
+m255
+K3
+13
+vparteA
+Z0 !s100 dzW49X55[5AeJfPH4FbAi2
+Z1 Ie[m@;VTk63[ZYAHD2R0?G1
+Z2 VK9hkEDAVMScOnGQhhCe520
+Z3 dF:\Users\Administrador\Documents\GitHub\tp-laboratorio\parteA\simulation\qsim
+Z4 w1729797372
+Z5 8parteA.vo
+Z6 FparteA.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|parteA.vo|
+Z9 o-work work -O0
+Z10 nparte@a
+!i10b 1
+!s85 0
+Z11 !s108 1729797377.889000
+Z12 !s107 parteA.vo|
+!s101 -O0
+vparteA_vlg_check_tst
+!i10b 1
+!s100 <QD1d^Kd[Da6k8QoKUL_J2
+IZ6G?JdP3GRkha7RgInid23
+V`KNXB<?QR4nzi6cST^APD0
+R3
+Z13 w1729797370
+Z14 8parteA.vt
+Z15 FparteA.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1729797379.146000
+Z17 !s107 parteA.vt|
+Z18 !s90 -work|work|parteA.vt|
+!s101 -O0
+R9
+nparte@a_vlg_check_tst
+vparteA_vlg_sample_tst
+!i10b 1
+!s100 A:EoiJa4ePSa1igelR1I]1
+ISH`B1OaOWZO=clc9[Rz^I0
+V;b0?DmcBPo?]MH4KJnEYK0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9
+nparte@a_vlg_sample_tst
+vparteA_vlg_vec_tst
+!i10b 1
+!s100 cm>O631N?mZi70f^5H82E0
+IF22508Fio1Y=io_aONVHD3
+V9LV9E?^l<:ZnmO8?fezO23
+R3
+R13
+R14
+R15
+L0 156
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9
+nparte@a_vlg_vec_tst

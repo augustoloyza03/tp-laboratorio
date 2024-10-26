@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteA/parteA.vhd
+source_file = 1, F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteA/Waveform.vwf
+source_file = 1, F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteA/parteA.tesbench
+source_file = 1, parteA.tesbench.vhd
+source_file = 1, F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteA/db/parteA.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = parteA
+instance = comp, \LED~output\, LED~output, parteA, 1
+instance = comp, \SW3~input\, SW3~input, parteA, 1
+instance = comp, \SW1~input\, SW1~input, parteA, 1
+instance = comp, \SW2~input\, SW2~input, parteA, 1
+instance = comp, \LED~0\, LED~0, parteA, 1

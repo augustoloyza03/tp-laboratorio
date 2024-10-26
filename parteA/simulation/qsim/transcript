@@ -1,0 +1,38 @@
+# do parteA.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Warning: (vlog-6) -- Waiting for lock by "unknown". Lockfile is "F:/Users/Administrador/Do# -- Compiling module parteA
+# 
+# Top level modules:
+# 	parteA
+# Mo# -- Compiling module parteA
+# 
+# Top level modules:
+# 	parteA
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module parteA_vlg_sample_tst
+# -- Compiling module parteA_vlg_check_tst
+# -- Compiling module parteA_vlg_vec_tst
+# 
+# Top level modules:
+# 	parteA_vlg_vec_tst
+# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ve# Loading work.parteA_vlg_vec_tst
+# Loading work.parteA
+# Loading cyc# Loading work.parteA_vlg_vec_tst
+# Loading work.parteA
+# Loading cycloneiii_ver.cycloneiii_io_obuf
+# Loading cycloneiii_ver.cycloneiii_io_ibuf
+# Loading cycloneiii_ver.cycloneiii_lcell_comb
+# Lo# Simulation passed !
+# ** Note: $finish    : parteA.vt(152)
+#    Tim# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Usuario  Hostname: DESKTOP-1QB5JJJ  ProcessID: 10176
+# 
+#           Attempting to use alternate WLF file "./wlftzc7tar".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftzc7tar
+# 
+# Simulation passed !
+# ** Note: $finish    : parteA.vt(152)
+#    Time: 1 us  Iteration: 0  Instance: /parteA_vlg_vec_tst/tb_out
