@@ -1,8 +1,7 @@
-|parteA
-SW1 => med1.IN0
-SW2 => med1.IN1
-SW2 => med3.IN0
-SW3 => med3.IN1
-LED <= LED.DB_MAX_OUTPUT_PORT_TYPE
+|Block4
+OUT <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+IN => inst4.IN0
+IN2 => inst2.IN1
+IN1 => inst.IN0
 
 

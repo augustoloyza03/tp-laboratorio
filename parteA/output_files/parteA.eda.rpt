@@ -1,5 +1,5 @@
 EDA Netlist Writer report for parteA
-Fri Oct 25 21:59:58 2024
+Sat Oct 26 15:43:22 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,9 +36,9 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Fri Oct 25 21:59:58 2024 ;
+; EDA Netlist Writer Status ; Successful - Sat Oct 26 15:43:22 2024 ;
 ; Revision Name             ; parteA                                ;
-; Top-level Entity Name     ; parteA                                ;
+; Top-level Entity Name     ; Block4                                ;
 ; Family                    ; Cyclone III                           ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -80,13 +80,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Oct 25 21:59:57 2024
+    Info: Processing started: Sat Oct 26 15:43:20 2024
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off parteA -c parteA
 Info (204019): Generated file parteA.vho in folder "F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteA/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4510 megabytes
-    Info: Processing ended: Fri Oct 25 21:59:58 2024
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Sat Oct 26 15:43:22 2024
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

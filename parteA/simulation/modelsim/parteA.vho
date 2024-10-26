@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
--- DATE "10/25/2024 21:59:58"
+-- DATE "10/26/2024 15:43:22"
 
 -- 
 -- Device: Altera EP3C120F780C7 Package FBGA780
@@ -31,23 +31,23 @@ LIBRARY IEEE;
 USE CYCLONEIII.CYCLONEIII_COMPONENTS.ALL;
 USE IEEE.STD_LOGIC_1164.ALL;
 
-ENTITY 	parteA IS
+ENTITY 	Block4 IS
     PORT (
-	SW1 : IN std_logic;
-	SW2 : IN std_logic;
-	SW3 : IN std_logic;
-	LED : OUT std_logic
+	\OUT\ : OUT std_logic;
+	\IN\ : IN std_logic;
+	IN2 : IN std_logic;
+	IN1 : IN std_logic
 	);
-END parteA;
+END Block4;
 
 -- Design Ports Information
--- LED	=>  Location: PIN_AF19,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- SW3	=>  Location: PIN_AG23,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- SW1	=>  Location: PIN_AC14,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- SW2	=>  Location: PIN_AD18,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- OUT	=>  Location: PIN_AB5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- IN2	=>  Location: PIN_AB6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- IN	=>  Location: PIN_AC4,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- IN1	=>  Location: PIN_AD4,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
-ARCHITECTURE structure OF parteA IS
+ARCHITECTURE structure OF Block4 IS
 SIGNAL gnd : std_logic := '0';
 SIGNAL vcc : std_logic := '1';
 SIGNAL unknown : std_logic := 'X';
@@ -57,88 +57,88 @@ SIGNAL devpor : std_logic := '1';
 SIGNAL ww_devoe : std_logic;
 SIGNAL ww_devclrn : std_logic;
 SIGNAL ww_devpor : std_logic;
-SIGNAL ww_SW1 : std_logic;
-SIGNAL ww_SW2 : std_logic;
-SIGNAL ww_SW3 : std_logic;
-SIGNAL ww_LED : std_logic;
-SIGNAL \LED~output_o\ : std_logic;
-SIGNAL \SW3~input_o\ : std_logic;
-SIGNAL \SW1~input_o\ : std_logic;
-SIGNAL \SW2~input_o\ : std_logic;
-SIGNAL \LED~0_combout\ : std_logic;
+SIGNAL \ww_OUT\ : std_logic;
+SIGNAL \ww_IN\ : std_logic;
+SIGNAL ww_IN2 : std_logic;
+SIGNAL ww_IN1 : std_logic;
+SIGNAL \OUT~output_o\ : std_logic;
+SIGNAL \IN~input_o\ : std_logic;
+SIGNAL \IN2~input_o\ : std_logic;
+SIGNAL \IN1~input_o\ : std_logic;
+SIGNAL \inst3~combout\ : std_logic;
 
 BEGIN
 
-ww_SW1 <= SW1;
-ww_SW2 <= SW2;
-ww_SW3 <= SW3;
-LED <= ww_LED;
+\OUT\ <= \ww_OUT\;
+\ww_IN\ <= \IN\;
+ww_IN2 <= IN2;
+ww_IN1 <= IN1;
 ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
 
--- Location: IOOBUF_X83_Y0_N16
-\LED~output\ : cycloneiii_io_obuf
+-- Location: IOOBUF_X0_Y4_N23
+\OUT~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
 	open_drain_output => "false")
 -- pragma translate_on
 PORT MAP (
-	i => \LED~0_combout\,
+	i => \inst3~combout\,
 	devoe => ww_devoe,
-	o => \LED~output_o\);
+	o => \OUT~output_o\);
 
--- Location: IOIBUF_X81_Y0_N22
-\SW3~input\ : cycloneiii_io_ibuf
+-- Location: IOIBUF_X0_Y4_N1
+\IN~input\ : cycloneiii_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
 	simulate_z_as => "z")
 -- pragma translate_on
 PORT MAP (
-	i => ww_SW3,
-	o => \SW3~input_o\);
+	i => \ww_IN\,
+	o => \IN~input_o\);
 
--- Location: IOIBUF_X56_Y0_N22
-\SW1~input\ : cycloneiii_io_ibuf
+-- Location: IOIBUF_X0_Y4_N8
+\IN2~input\ : cycloneiii_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
 	simulate_z_as => "z")
 -- pragma translate_on
 PORT MAP (
-	i => ww_SW1,
-	o => \SW1~input_o\);
+	i => ww_IN2,
+	o => \IN2~input_o\);
 
--- Location: IOIBUF_X85_Y0_N8
-\SW2~input\ : cycloneiii_io_ibuf
+-- Location: IOIBUF_X1_Y0_N8
+\IN1~input\ : cycloneiii_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
 	bus_hold => "false",
 	simulate_z_as => "z")
 -- pragma translate_on
 PORT MAP (
-	i => ww_SW2,
-	o => \SW2~input_o\);
+	i => ww_IN1,
+	o => \IN1~input_o\);
 
--- Location: LCCOMB_X82_Y1_N24
-\LED~0\ : cycloneiii_lcell_comb
+-- Location: LCCOMB_X1_Y4_N0
+inst3 : cycloneiii_lcell_comb
 -- Equation(s):
--- \LED~0_combout\ = (\SW1~input_o\ & ((!\SW2~input_o\))) # (!\SW1~input_o\ & ((\SW3~input_o\) # (\SW2~input_o\)))
+-- \inst3~combout\ = (\IN~input_o\ & ((!\IN1~input_o\))) # (!\IN~input_o\ & ((\IN2~input_o\) # (\IN1~input_o\)))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000111111111100",
+	lut_mask => "0101010111101110",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datab => \SW3~input_o\,
-	datac => \SW1~input_o\,
-	datad => \SW2~input_o\,
-	combout => \LED~0_combout\);
+	dataa => \IN~input_o\,
+	datab => \IN2~input_o\,
+	datad => \IN1~input_o\,
+	combout => \inst3~combout\);
 
-ww_LED <= \LED~output_o\;
+\ww_OUT\ <= \OUT~output_o\;
 END structure;
 
 
