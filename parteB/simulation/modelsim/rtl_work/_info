@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\Users\Administrador\Documents\GitHub\tp-laboratorio\parteB\simulation\modelsim
+Eflipflopd
+Z1 w1729971584
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dF:\Users\Administrador\Documents\GitHub\tp-laboratorio\parteB\simulation\modelsim
+Z5 8F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/FlipFlopD.vhd
+Z6 FF:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/FlipFlopD.vhd
+l0
+L4
+VzU<DJ66?G9^1jjZzzWH7X2
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1730079002.590000
+Z9 !s90 -reportprogress|300|-93|-work|work|F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/FlipFlopD.vhd|
+Z10 !s107 F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/FlipFlopD.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 LC]]S?=gcd^SK`D;[X4DE1
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 9 flipflopd 0 22 zU<DJ66?G9^1jjZzzWH7X2
+l13
+L12
+VKmN@aLi^d_S3R=XNTRiD33
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 WB;8>d;D0RSfCDU5YNR^<0
+!i10b 1
+Eparteb
+Z13 w1730076063
+R2
+R3
+R4
+Z14 8F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/parteB.vhd
+Z15 FF:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/parteB.vhd
+l0
+L5
+VLMmOzT7IjUSi>DSFkD0oC1
+R7
+31
+Z16 !s108 1730079002.185000
+Z17 !s90 -reportprogress|300|-93|-work|work|F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/parteB.vhd|
+Z18 !s107 F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/parteB.vhd|
+R11
+R12
+!s100 ?fl<m><7M4B@OZF`W6=KU1
+!i10b 1
+Arestadorcompleto
+R2
+R3
+DEx4 work 6 parteb 0 22 LMmOzT7IjUSi>DSFkD0oC1
+l29
+L15
+V3WUU<k4kH7@FE1N_bVA7h3
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 NJ?GU:G`k65NBgNTh5R@=1
+!i10b 1
+Etb_parteb
+Z19 w1730078473
+R2
+R3
+R4
+Z20 8F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/tb_parteB.vhd
+Z21 FF:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/tb_parteB.vhd
+l0
+L4
+VQLV`bCzYMoX2f7KY>Fb8m1
+!s100 X8VaSC6<0JOO3^SRVJ^Uj0
+R7
+31
+!i10b 1
+Z22 !s108 1730079002.948000
+Z23 !s90 -reportprogress|300|-93|-work|work|F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/tb_parteB.vhd|
+Z24 !s107 F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/tb_parteB.vhd|
+R11
+R12
+Atb
+R2
+R3
+DEx4 work 9 tb_parteb 0 22 QLV`bCzYMoX2f7KY>Fb8m1
+l27
+L7
+VgAKNhf;Y6?BkeO4iaj[l80
+!s100 ?Q23gHahDGgEz3WhbfG6f0
+R7
+31
+!i10b 1
+R22
+R23
+R24
+R11
+R12
