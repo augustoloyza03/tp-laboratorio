@@ -1,7 +1,7 @@
 |Block4
-OUT <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-IN => inst4.IN0
-IN2 => inst2.IN1
-IN1 => inst.IN0
+LED <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+SW2 => inst4.IN0
+SW3 => inst2.IN1
+SW1 => inst.IN0
 
 

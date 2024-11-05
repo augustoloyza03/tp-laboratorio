@@ -1,0 +1,149 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\Users\Administrador\Documents\GitHub\tp-laboratorio\parteC\simulation\modelsim
+Eblock1
+Z1 w1730487953
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dF:\Users\Administrador\Documents\GitHub\tp-laboratorio\parteC\simulation\modelsim
+Z5 8F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteC/Block1.vhd
+Z6 FF:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteC/Block1.vhd
+l0
+L24
+VF2IeQYg4i3D=`Om:EhW5J0
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1730501537.505000
+Z9 !s90 -reportprogress|300|-93|-work|work|F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteC/Block1.vhd|
+Z10 !s107 F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteC/Block1.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 7_]Lj4lOA;>lH?OM:fG1X3
+!i10b 1
+Abdf_type
+R2
+R3
+DEx4 work 6 block1 0 22 F2IeQYg4i3D=`Om:EhW5J0
+l83
+L45
+VU[IdZiGGR;;2c55QE9MWl2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 <;B`@:mFkHAL7FFjRJ<=j3
+!i10b 1
+Eflipflopd
+Z13 w1729971584
+R2
+R3
+R4
+Z14 8F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/FlipFlopD.vhd
+Z15 FF:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/FlipFlopD.vhd
+l0
+L4
+VzU<DJ66?G9^1jjZzzWH7X2
+R7
+31
+Z16 !s108 1730501537.995000
+Z17 !s90 -reportprogress|300|-93|-work|work|F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/FlipFlopD.vhd|
+Z18 !s107 F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/FlipFlopD.vhd|
+R11
+R12
+!s100 LC]]S?=gcd^SK`D;[X4DE1
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 9 flipflopd 0 22 zU<DJ66?G9^1jjZzzWH7X2
+l13
+L12
+VKmN@aLi^d_S3R=XNTRiD33
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 WB;8>d;D0RSfCDU5YNR^<0
+!i10b 1
+Epartec
+Z19 w1730475845
+R2
+R3
+R4
+Z20 8F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteC/parteC.vhdl
+Z21 FF:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteC/parteC.vhdl
+l0
+L3
+V5z0aU?LE1[?=lS;5_0E`W2
+R7
+31
+Z22 !s108 1730501538.523000
+Z23 !s90 -reportprogress|300|-93|-work|work|F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteC/parteC.vhdl|
+Z24 !s107 F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteC/parteC.vhdl|
+R11
+R12
+!s100 O83d;EUn5k[RM?C4WQONg3
+!i10b 1
+Aresta
+R2
+R3
+DEx4 work 6 partec 0 22 5z0aU?LE1[?=lS;5_0E`W2
+l15
+L13
+V1koFhmFW<KZbPc9]45mQB2
+R7
+31
+R22
+R23
+R24
+R11
+R12
+!s100 eZ77A5SebhfaYj<2Y40CK1
+!i10b 1
+Etb_block1
+Z25 w1730501186
+Z26 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z27 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R2
+R3
+R4
+Z28 8F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteC/tb_Block1.vhd
+Z29 FF:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteC/tb_Block1.vhd
+l0
+L5
+V`^f4MOL:]o`:NeXfg4OZ@2
+!s100 LhgW2O7aVZ1V8A8ee<PDd1
+R7
+31
+!i10b 1
+Z30 !s108 1730501538.923000
+Z31 !s90 -reportprogress|300|-93|-work|work|F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteC/tb_Block1.vhd|
+Z32 !s107 F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteC/tb_Block1.vhd|
+R11
+R12
+Aresta
+R26
+R27
+R2
+R3
+DEx4 work 9 tb_block1 0 22 `^f4MOL:]o`:NeXfg4OZ@2
+l48
+L8
+VMlomI:PW?6:8fU4FL>ngz2
+!s100 on5fRN3VkUR?FLP4<5f4W0
+R7
+31
+!i10b 1
+R30
+R31
+R32
+R11
+R12

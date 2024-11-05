@@ -1,0 +1,175 @@
+|Block1
+CLK => partec:b2v_inst.clk
+CLK => flipflopd:b2v_inst1.clk
+CLK => flipflopd:b2v_inst19.clk
+CLK => flipflopd:b2v_inst20.clk
+CLK => flipflopd:b2v_inst21.clk
+CLK => flipflopd:b2v_inst22.clk
+CLK => flipflopd:b2v_inst23.clk
+CLK => flipflopd:b2v_inst24.clk
+CLK => flipflopd:b2v_inst25.clk
+CLK => flipflopd:b2v_inst26.clk
+CLK => flipflopd:b2v_inst27.clk
+CLK => flipflopd:b2v_inst28.clk
+CLK => flipflopd:b2v_inst29.clk
+CLK => flipflopd:b2v_inst30.clk
+CLK => flipflopd:b2v_inst31.clk
+CLK => partec:b2v_inst6.clk
+CLK => partec:b2v_inst7.clk
+CLK => partec:b2v_inst8.clk
+a0 => flipflopd:b2v_inst1.d
+Bin => flipflopd:b2v_inst26.d
+b0 => flipflopd:b2v_inst27.d
+a1 => flipflopd:b2v_inst28.d
+b1 => flipflopd:b2v_inst29.d
+a2 => flipflopd:b2v_inst30.d
+b2 => flipflopd:b2v_inst31.d
+a3 => flipflopd:b2v_inst24.d
+b3 => flipflopd:b2v_inst25.d
+Bout <= flipflopd:b2v_inst23.q
+Z3 <= flipflopd:b2v_inst22.q
+Z2 <= flipflopd:b2v_inst21.q
+Z1 <= flipflopd:b2v_inst19.q
+Z0 <= flipflopd:b2v_inst20.q
+
+
+|Block1|parteC:b2v_inst
+clk => ~NO_FANOUT~
+A => Diff.IN0
+A => Bout.IN0
+A => Bout.IN0
+B => Diff.IN1
+B => Bout.IN1
+B => Bout.IN1
+Bin => Diff.IN1
+Bin => Bout.IN1
+Diff <= Diff.DB_MAX_OUTPUT_PORT_TYPE
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FlipFlopD:b2v_inst1
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FlipFlopD:b2v_inst19
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FlipFlopD:b2v_inst20
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FlipFlopD:b2v_inst21
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FlipFlopD:b2v_inst22
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FlipFlopD:b2v_inst23
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FlipFlopD:b2v_inst24
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FlipFlopD:b2v_inst25
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FlipFlopD:b2v_inst26
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FlipFlopD:b2v_inst27
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FlipFlopD:b2v_inst28
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FlipFlopD:b2v_inst29
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FlipFlopD:b2v_inst30
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FlipFlopD:b2v_inst31
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|parteC:b2v_inst6
+clk => ~NO_FANOUT~
+A => Diff.IN0
+A => Bout.IN0
+A => Bout.IN0
+B => Diff.IN1
+B => Bout.IN1
+B => Bout.IN1
+Bin => Diff.IN1
+Bin => Bout.IN1
+Diff <= Diff.DB_MAX_OUTPUT_PORT_TYPE
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|parteC:b2v_inst7
+clk => ~NO_FANOUT~
+A => Diff.IN0
+A => Bout.IN0
+A => Bout.IN0
+B => Diff.IN1
+B => Bout.IN1
+B => Bout.IN1
+Bin => Diff.IN1
+Bin => Bout.IN1
+Diff <= Diff.DB_MAX_OUTPUT_PORT_TYPE
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|parteC:b2v_inst8
+clk => ~NO_FANOUT~
+A => Diff.IN0
+A => Bout.IN0
+A => Bout.IN0
+B => Diff.IN1
+B => Bout.IN1
+B => Bout.IN1
+Bin => Diff.IN1
+Bin => Bout.IN1
+Diff <= Diff.DB_MAX_OUTPUT_PORT_TYPE
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+
+

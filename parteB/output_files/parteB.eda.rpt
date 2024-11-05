@@ -1,5 +1,5 @@
 EDA Netlist Writer report for parteB
-Sun Oct 27 22:27:42 2024
+Fri Nov 01 19:25:48 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sun Oct 27 22:27:42 2024 ;
+; EDA Netlist Writer Status ; Successful - Fri Nov 01 19:25:48 2024 ;
 ; Revision Name             ; parteB                                ;
 ; Top-level Entity Name     ; parteB                                ;
 ; Family                    ; Cyclone III                           ;
@@ -88,7 +88,7 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sun Oct 27 22:27:41 2024
+    Info: Processing started: Fri Nov 01 19:25:45 2024
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off parteB -c parteB
 Info (204019): Generated file parteB_7_1200mv_85c_slow.vho in folder "F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/simulation/modelsim/" for EDA simulation tool
 Info (204019): Generated file parteB_7_1200mv_0c_slow.vho in folder "F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/simulation/modelsim/" for EDA simulation tool
@@ -100,8 +100,8 @@ Info (204019): Generated file parteB_min_1200mv_0c_vhd_fast.sdo in folder "F:/Us
 Info (204019): Generated file parteB_vhd.sdo in folder "F:/Users/Administrador/Documents/GitHub/tp-laboratorio/parteB/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4526 megabytes
-    Info: Processing ended: Sun Oct 27 22:27:42 2024
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Processing ended: Fri Nov 01 19:25:48 2024
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
 
 

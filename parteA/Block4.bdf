@@ -21,9 +21,9 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 48 128 216 144)
+	(rect 32 128 200 144)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "IN" (rect 5 0 16 12)(font "Arial" ))
+	(text "SW2" (rect 5 0 29 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -37,9 +37,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 184 72 352 88)
+	(rect 184 64 352 80)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "IN1" (rect 5 0 22 12)(font "Arial" ))
+	(text "SW1" (rect 5 0 29 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -53,9 +53,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 184 208 352 224)
+	(rect 192 208 360 224)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "IN2" (rect 5 0 22 12)(font "Arial" ))
+	(text "SW3" (rect 5 0 29 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(output)
 	(rect 576 144 752 160)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "OUT" (rect 90 0 112 12)(font "Arial" ))
+	(text "LED" (rect 90 0 111 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -239,5 +239,25 @@ applicable agreement for further details.
 (connector
 	(pt 512 88)
 	(pt 512 144)
+)
+(connector
+	(pt 352 216)
+	(pt 360 216)
+)
+(connector
+	(pt 216 136)
+	(pt 200 136)
+)
+(connector
+	(pt 344 80)
+	(pt 344 72)
+)
+(connector
+	(pt 352 80)
+	(pt 344 80)
+)
+(connector
+	(pt 344 72)
+	(pt 352 72)
 )
 (junction (pt 264 136))

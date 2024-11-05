@@ -1,0 +1,13 @@
+# do parteD2.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module parteD2
+# 
+# Top level modules:
+# 	parteD2
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module parteD2_vlg_sample_tst
+# ** Error: parteD2.vt(31): near "input": syntax error, unexpected input, expecting ')'
+# ** Error: c:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Executing ONERROR command at macro ./parteD2.do line 4
