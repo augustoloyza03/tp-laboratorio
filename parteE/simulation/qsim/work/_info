@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\Users\Administrador\Documents\GitHub\tp-laboratorio\parteE\simulation\qsim
+vcircuiteria
+Z1 IC>2b9zRieG=[5X3?D:zj[3
+Z2 V?UhJOza=L0QHZXYE7BNTc0
+Z3 dF:\Users\Administrador\Documents\GitHub\tp-laboratorio\parteE\simulation\qsim
+Z4 w1730919875
+Z5 8parteE.vo
+Z6 FparteE.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|parteE.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 N=BQVG7NjM1=:9fLDB9TL3
+!s85 0
+Z11 !s108 1730919880.778000
+Z12 !s107 parteE.vo|
+!s101 -O0
+vcircuiteria_vlg_check_tst
+!i10b 1
+Z13 !s100 ]76?^C5?g>0EYoO0XcUjW2
+Z14 I^3n8SVSJbgKHK53[lH>@63
+Z15 V=P?VJ08=JVhN4[C:?K28]3
+R3
+Z16 w1730919873
+Z17 8parteE.vt
+Z18 FparteE.vt
+L0 67
+R7
+r1
+!s85 0
+31
+Z19 !s108 1730919881.182000
+Z20 !s107 parteE.vt|
+Z21 !s90 -work|work|parteE.vt|
+!s101 -O0
+R9
+vcircuiteria_vlg_sample_tst
+!i10b 1
+Z22 !s100 8FCS2LQADJNGoLnTT=`ez2
+Z23 I_9H9VzPl[kdS;]LefzT?31
+Z24 VzPhA`ocKRg7^6Mo]okh8K1
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vcircuiteria_vlg_vec_tst
+!i10b 1
+!s100 9Kh6ncYC4l`K``dHYkZYL3
+In]W8Co[zEQ4CI;=4NFmPY0
+Z25 V<UV8`Td08MTe65iWRX>PO2
+R3
+R16
+R17
+R18
+Z26 L0 216
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

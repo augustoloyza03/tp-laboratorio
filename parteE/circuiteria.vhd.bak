@@ -1,0 +1,71 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity circuiteria is
+	port(
+		clk     : in std_logic;
+		reset   : in std_logic;
+		SCL     : in std_logic;
+		SDA     : in std_logic;
+		habDIR : in std_logic;
+		soy     : out std_logic;
+		finDIR : out std_logic;
+		finDATO: out std_logic
+	);
+end circuiteria;
+
+architecture behavioral of circuiteria is
+
+	
+	signal contador_dir : std_logic_vector(6 downto 0) := (others => '0');
+	signal contador_dato: std_logic_vector(7 downto 0) := (others => '0');
+	signal registro_dir : std_logic_vector(6 downto 0) := (others => '0');
+	signal registro_dato: std_logic_vector(7 downto 0) := (others => '0');
+	signal direccion_esperada : std_logic_vector(6 downto 0) := "1101010";  -- Ejemplo de dirección esperada
+
+begin
+
+	process(clk, reset)
+	begin
+		if reset = '1' then
+			contador_dir <= (others => '0');
+			registro_dir <= (others => '0');
+			finDIR <= '0';
+		elsif rising_edge(SCL) and Hab_Dir = '1' then
+			if contador_dir < "111" then
+				contador_dir <= contador_dir + 1;
+				registro_dir <= registro_dir(5 downto 0) & SDA;  -- Desplaza los bits recibidos
+			else
+				finDIR <= '1';  
+			end if;
+		end if;
+	end process;
+
+	
+	process(registro_dir)
+	begin
+		if registro_dir = direccion_esperada then
+			soy <= '1';
+		else
+			soy <= '0';
+		end if;
+	end process;
+
+	process(clk, reset)
+	begin
+		if reset = '1' then
+			contador_dato <= (others => '0');
+			registro_dato <= (others => '0');
+			finDATO <= '0';
+		elsif rising_edge(SCL) and soy = '1' then  
+			if contador_dato < "11111111" then
+				contador_dato <= contador_dato + 1;
+				registro_dato <= registro_dato(6 downto 0) & SDA;  -- Desplaza los bits recibidos
+			else
+				finDATO <= '1';  
+			end if;
+		end if;
+	end process;
+
+end behavioral;

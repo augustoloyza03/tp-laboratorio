@@ -1,0 +1,30 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity parteF is
+    Port ( dividendo : in STD_LOGIC_VECTOR(5 downto 0);  -- 4 bits de p. entera, 2 bits p. fraccionaria
+           divisor : in STD_LOGIC_VECTOR(5 downto 0);   -- 3  bits p. entera, 3 bits p. fraccionaria
+           cociente : out STD_LOGIC_VECTOR(9 downto 0)  -- 7  bits p. entero, 3 bits p. fraccionario
+         );
+end parteF;
+
+architecture Division of parteF is
+    signal dividendo_escalado : STD_LOGIC_VECTOR(11 downto 0);  -- 6 bits adicionales de p.entera
+    signal cociente_escalado : STD_LOGIC_VECTOR(11 downto 0);
+begin
+    process(dividendo, divisor)
+    begin
+        -- Escalo el dividendo por 2^6
+        dividendo_escalado <= STD_LOGIC_VECTOR(unsigned(dividendo) * 64);
+        
+        -- División entera y asignación del resultado
+        if divisor= '000000' then 
+          cociente <= (others => '0');  -- Devuelve 0 en caso de división por cero
+        else
+		  cociente_escalado <= dividendo_escalado / unsigned(divisor);
+            cociente <= cociente_escalado(9 downto 0);  -- me quedo solo con 10 bits finales (7 enteros, 3 fraccionarios)
+        end if;
+    end process;
+end Behavioral;

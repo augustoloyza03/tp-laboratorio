@@ -1,0 +1,9 @@
+
+State Machine - |parteE|state
+Name state.state_bit_2 state.state_bit_1 state.state_bit_0 
+state.ocioso 0 0 0 
+state.start 0 0 1 
+state.guardaDIR 0 1 0 
+state.RW 0 1 1 
+state.ack 1 0 0 
+state.guardaDATO 1 0 1 
