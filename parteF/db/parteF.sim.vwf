@@ -287,7 +287,7 @@ TRANSITION_LIST("cociente[9]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -296,7 +296,7 @@ TRANSITION_LIST("cociente[8]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -305,7 +305,7 @@ TRANSITION_LIST("cociente[7]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -314,7 +314,7 @@ TRANSITION_LIST("cociente[6]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -413,7 +413,7 @@ TRANSITION_LIST("dividendo[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -422,7 +422,7 @@ TRANSITION_LIST("dividendo[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -440,7 +440,7 @@ TRANSITION_LIST("divisor[4]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 1 FOR 1000.0;
 	}
 }
 
@@ -458,7 +458,7 @@ TRANSITION_LIST("divisor[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 1 FOR 1000.0;
 	}
 }
 
@@ -476,14 +476,14 @@ TRANSITION_LIST("divisor[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
 DISPLAY_LINE
 {
 	CHANNEL = "dividendo";
-	EXPAND_STATUS = COLLAPSED;
+	EXPAND_STATUS = EXPANDED;
 	RADIX = Binary;
 	TREE_INDEX = 0;
 	TREE_LEVEL = 0;
